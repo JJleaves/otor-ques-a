@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questionnaire A</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <aside class="sidebar">
+      <h1>Questionnaire A</h1>
+      <p>请选择报告编号阅读。编号仅用于记录，不代表报告质量或生成方式。</p>
+      <div class="buttons">
+        <button class="report-button" data-pdf="pdfs/Report_01.pdf"><span>Report_01</span></button>
+<button class="report-button" data-pdf="pdfs/Report_02.pdf"><span>Report_02</span></button>
+<button class="report-button" data-pdf="pdfs/Report_03.pdf"><span>Report_03</span></button>
+<button class="report-button" data-pdf="pdfs/Report_04.pdf"><span>Report_04</span></button>
+<button class="report-button" data-pdf="pdfs/Report_05.pdf"><span>Report_05</span></button>
+      </div>
+    </aside>
+    <section class="viewer">
+      <iframe id="pdfFrame" src="pdfs/Report_01.pdf" title="PDF reader"></iframe>
+    </section>
+  </main>
+  <script src="viewer.js"></script>
+</body>
+</html>
